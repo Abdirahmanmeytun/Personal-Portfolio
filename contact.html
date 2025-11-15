@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Abdirahman Abdiwahab</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand container"><img src="assets/logo.png" alt="Logo" /><h1>Abdirahman Abdiwahab</h1></div>
+    <nav class="site-nav container" style="justify-content:flex-end;">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a><a href="projects.html">Projects</a><a href="services.html">Services</a><a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h3>Contact</h3>
+      <div class="text-block">
+        <p>I’m open to freelance work, contract projects, and collaborations. Reach out using the contact details below or send a message using the form.</p>
+
+        <p><strong>Email:</strong> your-email-here<br>
+        <strong>LinkedIn:</strong> your-linkedin-here<br>
+        <strong>Phone:</strong> optional-phone-number</p>
+
+        <!-- Simple contact form (works with form handling services) -->
+        <form action="https://formspree.io/f/your-form-id" method="POST" style="margin-top:18px;max-width:520px;">
+          <label style="display:block;margin-bottom:8px">Name</label>
+          <input name="name" type="text" required style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border)"/>
+          <label style="display:block;margin:12px 0 8px 0">Email</label>
+          <input name="email" type="email" required style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border)"/>
+          <label style="display:block;margin:12px 0 8px 0">Message</label>
+          <textarea name="message" rows="6" required style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border)"></textarea>
+          <button class="btn" type="submit" style="border:none">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© 2025 Abdirahman Abdiwahab</footer>
+</body>
+</html>
